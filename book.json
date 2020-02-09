@@ -1,0 +1,107 @@
+{
+  "title": "SuperMemo",
+  "author": "若非",
+  "description": "Learn fast and forget about forgetting",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "links": {
+    "sidebar": {
+      "主页": "https://ruofei.site/"
+    }
+  },
+  "structure": {
+    "readme": "README.md",
+    "glossary": "GLOSSARY.md"
+  },
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [{
+        "user": "smpower",
+        "repo": "supermemo",
+        "type": "star",
+        "size": "small",
+        "count": true
+        }
+      ]
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": false,
+      "google": false,
+      "hatenaBookmark": false,
+      "instapaper": false,
+      "line": false,
+      "linkedin": false,
+      "messenger": false,
+      "pocket": false,
+      "qq": false,
+      "qzone": false,
+      "stumbleupon": false,
+      "weibo": false,
+      "twitter": false,
+      "viber": false,
+      "vk": false,
+      "whatsapp": false,
+      "all": [
+        "qq", "qzone", "weibo", "douban", "facebook", "twitter", "google", "linkedin", "pocket"
+      ]
+    },
+    "github": {
+      "url": "https://github.com/smpower"
+    },
+    "tbfed-pagefooter": {
+      "copyright":"Copyright &copy 2020 ruofei.site",
+      "modify_label": "修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "gtalk": {
+      "clientID": "57d78aea7ea945e16976",
+      "clientSecret": "25953ac8037cf8fb54c53c8d958017215f204991",
+      "repo": "https://github.com/smpower/ruofei.site.gitalk.git",
+      "owner": "smpower",
+      "admin": ["smpower"]
+    },
+    "flexible-alerts": {
+      "style": "flat",
+      "note": {
+        "label": {
+          "en": "Note"
+        }
+      },
+      "tip": {
+        "label": {
+          "en": "Tip"
+        }
+      },
+      "warning": {
+        "label": {
+          "en": "Warning"
+        }
+      },
+      "danger": {
+        "label": {
+          "en": "Attention"
+        }
+      }
+    }
+  },
+  "plugins": [
+    "-search",
+    "search-pro",
+    "-sharing",
+    "sharing-plus",
+    "github",
+    "github-buttons",
+    "anchors",
+    "code",
+    "pageview-count",
+    "popup",
+    "splitter",
+    "toggle-chapters",
+    "tbfed-pagefooter",
+    "back-to-top-button",
+    "gtalk",
+    "flexible-alerts"
+  ]
+}
+  
