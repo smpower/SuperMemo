@@ -1,5 +1,5 @@
 {
-  "title": "SuperMemo",
+  "title": "SuperMemo 中文版文档",
   "author": "若非",
   "description": "Learn fast and forget about forgetting",
   "language": "zh-hans",
@@ -10,49 +10,31 @@
     }
   },
   "structure": {
-    "readme": "README.md",
+    "readme": "INTRO.md",
     "glossary": "GLOSSARY.md"
   },
+  "plugins": [
+    "code",
+    "search-pro",
+    "chapter-fold",
+    "popup",
+    "advanced-emoji",
+    "edit-link",
+    "github",
+    "sitemap-general",
+    "gtalk",
+    "hide-element"
+  ],
   "pluginsConfig": {
-    "github-buttons": {
-      "buttons": [{
-        "user": "smpower",
-        "repo": "supermemo",
-        "type": "star",
-        "size": "small",
-        "count": true
-        }
-      ]
-    },
-    "sharing": {
-      "douban": false,
-      "facebook": false,
-      "google": false,
-      "hatenaBookmark": false,
-      "instapaper": false,
-      "line": false,
-      "linkedin": false,
-      "messenger": false,
-      "pocket": false,
-      "qq": false,
-      "qzone": false,
-      "stumbleupon": false,
-      "weibo": false,
-      "twitter": false,
-      "viber": false,
-      "vk": false,
-      "whatsapp": false,
-      "all": [
-        "qq", "qzone", "weibo", "douban", "facebook", "twitter", "google", "linkedin", "pocket"
-      ]
+    "edit-link": {
+      "base": "https://github.com/smpower/supermemo/blob/gitbook",
+      "label": "编辑本页"
     },
     "github": {
-      "url": "https://github.com/smpower"
+      "url": "https://github.com/smpower/supermemo.git"
     },
-    "tbfed-pagefooter": {
-      "copyright":"Copyright &copy 2020 ruofei.site",
-      "modify_label": "修订时间：",
-      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    "sitemap-general": {
+      "prefix": "https://supermemo.ruofei.site/"
     },
     "gtalk": {
       "clientID": "57d78aea7ea945e16976",
@@ -61,47 +43,9 @@
       "owner": "smpower",
       "admin": ["smpower"]
     },
-    "flexible-alerts": {
-      "style": "flat",
-      "note": {
-        "label": {
-          "en": "Note"
-        }
-      },
-      "tip": {
-        "label": {
-          "en": "Tip"
-        }
-      },
-      "warning": {
-        "label": {
-          "en": "Warning"
-        }
-      },
-      "danger": {
-        "label": {
-          "en": "Attention"
-        }
-      }
+    "hide-element": {
+      "elements": [".gitbook-link"]
     }
-  },
-  "plugins": [
-    "-search",
-    "search-pro",
-    "-sharing",
-    "sharing-plus",
-    "github",
-    "github-buttons",
-    "anchors",
-    "code",
-    "pageview-count",
-    "popup",
-    "splitter",
-    "toggle-chapters",
-    "tbfed-pagefooter",
-    "back-to-top-button",
-    "gtalk",
-    "flexible-alerts"
-  ]
+  }
 }
   
