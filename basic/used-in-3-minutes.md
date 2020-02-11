@@ -1,6 +1,8 @@
-# 三分钟上手 SuperMemo
+---
+title: SuperMemo 中文版文档
+---
 
-:smile:
+# 三分钟上手 SuperMemo
 
 三分钟上手 SuperMemo！你仅需知道以下两个操作即可：
 

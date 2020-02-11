@@ -23,9 +23,26 @@
     "github",
     "sitemap-general",
     "gtalk",
-    "hide-element"
+    "hide-element",
+    "-highlight"
   ],
   "pluginsConfig": {
+    "sharing": {
+      "facebook": false,
+      "twitter": false,
+      "google": false,
+      "weibo": false,
+      "instapaper": false,
+      "vk": false,
+      "all": [
+        "weibo",
+        "facebook", 
+        "twitter",
+        "google", 
+        "instapaper",
+        "vk"
+      ]
+    },
     "edit-link": {
       "base": "https://github.com/smpower/supermemo/blob/gitbook",
       "label": "编辑本页"
