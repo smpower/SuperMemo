@@ -15,6 +15,8 @@ cache:
 
 before_install:
   - npm i -g gitbook-cli # 全局安装 gitbook-cli
+  - sudo apt-get install calibre
+  - sudo ln -s /usr/bin/nodejs /usr/bin/node
  
 install:
   - gitbook install # 安装 book.json 中的插件
@@ -34,6 +36,9 @@ after_script:
   - git add .
   - git commit -m "Updated gitbook by Travis-CI."
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master # 发布到 master 分支
+  - gitbook pdf ./ ./supermemo-book.pdf
+  - gitbook epub ./ ./supermemo-book.epub
+  - gitbook mobi ./ ./supermemo-book.mobi
 
 env:
   global:
