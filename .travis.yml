@@ -37,9 +37,9 @@ after_script:
   - git commit -m "Updated gitbook by Travis-CI."
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master # 发布到 master 分支
   - cd ../ && mkdir _book_file && cd _book_file
-  - gitbook pdf ./ ./supermemo.pdf # 生成 pdf 文档
-  - gitbook epub ./ ./supermemo.epub # 生成 epub 文档
-  - gitbook mobi ./ ./supermemo.mobi # 生成 mobi 文档
+  - gitbook pdf ../_book/ ./supermemo.pdf # 生成 pdf 文档
+  - gitbook epub ../_book/ ./supermemo.epub # 生成 epub 文档
+  - gitbook mobi ../_book/ ./supermemo.mobi # 生成 mobi 文档
   - git add .
   - git commit -m 'Generated book files.'
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" _book_file:_book_file # 发布到 _book_file 分支
