@@ -40,9 +40,10 @@ after_script:
   - gitbook pdf ../_book/ ./supermemo.pdf # 生成 pdf 文档
   - gitbook epub ../_book/ ./supermemo.epub # 生成 epub 文档
   - gitbook mobi ../_book/ ./supermemo.mobi # 生成 mobi 文档
+  - git init
   - git add .
   - git commit -m 'Generated book files.'
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" _book_file:_book_file # 发布到 _book_file 分支
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:_book_file # 发布到 _book_file 分支
 
 env:
   global:
