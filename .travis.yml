@@ -17,6 +17,17 @@ before_install:
   - npm i -g gitbook-cli # 全局安装 gitbook-cli
   - sudo apt-get install calibre -y # 安装 calibre
   - sudo ln -s /usr/bin/nodejs /usr/bin/node # 建立软链接
+
+  # 解决下面生成 pdf 时报错的问题
+  # 报错信息（非桌面环境报错）：RuntimeError: X server required. If you are running on a headless machine, use xvfb
+  - sudo apt-get update && sudo apt-get install -y xfonts-100dpi xfonts-75dpi xfonts-scalable xfonts-cyrillic xvfb x11-apps
+  # 安装后依然报错，参考：
+  # https://www.systutorials.com/241364/how-to-run-gitbook-on-a-headless-server-make-calibre-run-in-headless-server/
+  # 的解决方法，创建 /usr/local/bin/ebook-convert 文件并赋予执行权限
+  - sudo echo '#/bin/bash' > /usr/local/bin/ebook-convert
+  - sudo echo 'echo "Run xvfb-run /usr/bin/ebook-convert $@"' > /usr/local/bin/ebook-convert
+  - sudo echo 'xvfb-run /usr/bin/ebook-convert "$@"' > /usr/local/bin/ebook-convert
+  - sudo chmod a+x /usr/local/bin/ebook-convert
  
 install:
   - gitbook install # 安装 book.json 中的插件
