@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Run xvfb-run ./ebook-convert $@"
+
+xvfb-run ./ebook-convert "$@"
