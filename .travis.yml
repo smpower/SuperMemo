@@ -24,7 +24,8 @@ before_install:
   # 安装后依然报错，参考：
   # https://www.systutorials.com/241364/how-to-run-gitbook-on-a-headless-server-make-calibre-run-in-headless-server/
   # 的解决方法，创建 /usr/local/bin/ebook-convert 文件并赋予执行权限
-  - sudo chmod +x ./ebook-convert
+  - sudo cp ./ebook-convert /usr/bin/ebook-convert
+  - sudo chmod +x /usr/bin/ebook-convert
  
 install:
   - gitbook install # 安装 book.json 中的插件
