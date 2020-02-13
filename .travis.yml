@@ -18,6 +18,10 @@ before_install:
   - sudo apt-get install calibre -y # 安装 calibre
   - sudo ln -s /usr/bin/nodejs /usr/bin/node # 建立软链接
 
+  # 解决生成 PDF 文件报错的方法
+  - apt-get update && sudo apt-get install -y xfonts-100dpi xfonts-75dpi xfonts-scalable xfonts-cyrillic xvfb x11-apps
+  - sudo chmod +x ./ebook-convert && sudo cp ./ebook-convert /usr/bin/
+
 install:
   - gitbook install # 安装 book.json 中的插件
 
