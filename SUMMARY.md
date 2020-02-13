@@ -1,3 +1,7 @@
+---
+title: SuperMemo 中文版文档
+---
+
 # Summary
 
 * [介绍](INTRO.md)

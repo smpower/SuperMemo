@@ -1,3 +1,7 @@
+---
+title: SuperMemo 中文版文档
+---
+
 # 下载本书
 
 本站提供 epub 和 mobi 格式电子版文档，暂不支持 pdf 格式文档下载。
