@@ -29,6 +29,7 @@ script:
   - gitbook build # 打包
 
 after_script:
+  # 提交站点分支
   - cd ./_book
   - git init
   - git config --global user.name "smpower"
@@ -36,8 +37,10 @@ after_script:
   - git add .
   - git commit -m "Updated gitbook by Travis-CI."
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master # 发布到 master 分支
+
+  # 提交书籍分支
   - cd ../ && mkdir _book_file
-  - gitbook pdf ./ ./_book_file/supermemo.pdf # 生成 PDF 时报错，暂时忽略
+  - # gitbook pdf ./ ./_book_file/supermemo.pdf # 生成 PDF 时报错，暂时忽略
   - gitbook epub ./ ./_book_file/supermemo.epub # 生成 epub 文档
   - gitbook mobi ./ ./_book_file/supermemo.mobi # 生成 mobi 文档
   - cd _book_file && git init
