@@ -12,8 +12,8 @@ title: SuperMemo 中文版文档
 
 1. **Beginner** - 初次使用 SuperMemo 时，程序默认加载该级别。该级别只提供了使用 SuperMemo 程序时最基本的一些操作，比如添加新的学习材料。
 2. **Basic** - 建立在 *Beginner* 基础之上的难度级别。它引入了一个精简的 learn 栏，其中包含[增量阅读](/)中使用的最重要选项，如 *Remember extract*、*Remember close* 等。该级别还提供了编辑[知识树](/)的能力。
-3. **Middle** - 
-4. **Professional** - 
+3. **Middle** - 此级别引入了集合管理功能（删除集合、合并集合等）、编辑组件、高级搜索功能和浏览功能、选项、Mercy 和 布局管理。
+4. **Professional** - 该级别为高级用户提供了 SuperMemo 的全部功能。
 
 ----
 
