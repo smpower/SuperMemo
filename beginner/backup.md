@@ -22,4 +22,4 @@ SuperMemo 的复制式备份是指将指定的集合（collection）复制到本
 
 ----
 
-[^1]: SuperMemo 程序有 4 个级别，分别是 *Beginner*、*Basic*、*Middle* 和 *Professional*，选择复制式备份时需要程序级别在 *Basic* 及以上方可，可在主菜单的 *File: Level* 下选择对应级别。关于程序级别的介绍请查阅[**这里**](/basic/level.html)。
+[^1]: SuperMemo 程序有 4 个级别，分别是 *Beginner*、*Basic*、*Middle* 和 *Professional*，选择复制式备份时需要程序级别在 *Basic* 及以上方可，可在主菜单的 *File: Level* 下选择对应级别。关于程序级别的介绍请查阅[**这里**](/beginner/level.html)。
