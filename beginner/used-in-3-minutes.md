@@ -9,7 +9,7 @@ title: SuperMemo 中文版文档
 - `Add new` 按钮以问答形式增加新材料（快捷键：*Alt+A*）。
 - `Learn` 按钮用来学习（快捷键：*Ctrl+L*）。你应该每天学习，直到看到消息 *Nothing more to learn*。
 
-![Add new](https://help.supermemo.org/images/0/04/Add_new.jpg)
+![Add new](https://i.loli.net/2020/02/15/fW6tyUTSnak7RlY.jpg)
 
 很多人在使用 SuperMemo 的过程中，仅仅使用上面提到的两个操作，已经能在 SuperMemo 中获益！像这种简单的**问答重复**形式能满足我们大多数人的日常使用，官方也建议我们在这种基本模式下至少使用一周时间。如果在使用过程中，配合上面的两个操作同时经常[备份](/beginner/backup.html)自己的知识数据，那么后面将要提到的其他技巧对你来说其实是可选的。
 
