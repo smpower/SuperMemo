@@ -14,11 +14,12 @@
 
     访问该站点，下图红框区域是上传图片区域，可以将图片拖拽到此处，也可点击右下角的 `Select Image(s)` 按钮在本地选择图片上传。选择本地图片后，该区域会出现待上传图片的预览，点击右下角的 `Upload` 按钮即可上传成功。
 
-    ![上传及预览区域](https://i.loli.net/2020/02/15/Z3olvU8tgSzAfbn.png)
+    ![上传及预览区域](https://i.loli.net/2020/02/15/J9RFHy5G8KnV143.png)
+    ![upload-area.png]()
 
     上传成功后，在 `Preview` 标签下找到 `MarkDown`，将这个地址复制到文档中即可：
 
-    ![使用上传的图片](https://i.loli.net/2020/02/15/voWgwbTd7mHRy3I.png)
+    ![使用上传的图片](https://i.loli.net/2020/02/15/BhL67Ma1dkDYjm3.png)
 
 - 创建新文件时，要用带有中划线(-)或下划线(_)的英文命名，不允许使用中文命名，文件名以 `.md` 结尾；
 
