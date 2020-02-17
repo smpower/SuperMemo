@@ -14,6 +14,7 @@ cache:
      - ./node_modules
 
 before_install:
+  - rm book.json && mv _book.json book.json
   - npm i -g gitbook-cli # 全局安装 gitbook-cli
   - sudo apt-get install calibre -y # 安装 calibre
   - sudo ln -s /usr/bin/nodejs /usr/bin/node # 建立软链接
