@@ -7,6 +7,7 @@
   * [收藏集合](./beginner/file-favorites.md)
   * [备份](./beginner/backup.md)
   * [级别](./beginner/level.md)
+  * [帮助](./beginner/help.md)
 * [基础](./basic/README.md)
 * [中级](./middle/README.md)
 * [专家](./professional/README.md)
